@@ -14,5 +14,6 @@ REPORT_GAS=true npx hardhat test
 ### Deploying smart contracts
 
 ```shell
-npx hardhat run scripts/deploy.ts
+npx hardhat run scripts/deploy.ts --network skale_titan_test
 ```
+You can add more networks as you need in the `hardhat.config.ts` file
